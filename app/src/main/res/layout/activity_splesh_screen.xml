@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.SpleshScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note"
+        android:textSize="@dimen/_22ssp"
+        android:textStyle="bold"
+        android:textColor="#262728"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginStart="@dimen/_20sdp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_15sdp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#9C9C9E"
+        android:text="Capture what's on your mind and get a"
+        android:layout_marginStart="@dimen/_20sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#9C9C9E"
+        android:text="rimander later at the right place or time. "
+        android:layout_marginStart="@dimen/_20sdp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#9C9C9E"
+        android:text="you can also add voice memo and other features "
+        android:layout_marginStart="@dimen/_20sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9C9C9E"
+            android:text="features."
+            android:layout_marginStart="@dimen/_20sdp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/image2" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnStart"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_50sdp"
+            app:cardBackgroundColor="#6173EE"
+            app:cardCornerRadius="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_330sdp"
+            android:layout_marginStart="@dimen/_190sdp"
+            app:cardElevation="@dimen/_3sdp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Let's Start"
+                android:textColor="@color/white"
+                android:layout_gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</LinearLayout>
